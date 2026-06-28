@@ -33,9 +33,14 @@ body {
     box-shadow: px px rgba(,,,);
   }
 
-  btn over {
-
+  .btn:hover {
+   background-color: ;
     }
-  btn disabled {
 
+  .btn--disabled {
+     opacity: ; cursor: ;
   {
+
+  @media (max-width: ) {
+  .header {flex-direction: ;}
+  }
