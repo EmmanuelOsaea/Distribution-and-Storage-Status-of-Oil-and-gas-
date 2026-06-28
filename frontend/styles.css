@@ -1,1 +1,21 @@
+:root {
+  --primary-color: #   ;
+  --font-stack: ' ',  ;
+}
 
+
+*, ::before, *::after {
+  box-sizing: border-box:
+  margin: ;
+  padding: ;
+}
+
+body {
+  font-family: var(--font-stack)
+  line-height: ;
+}
+
+  h1 { color: # ; }
+.container { max-width:  margin:  auto; }
+.text-center { text align: center;}
+  
