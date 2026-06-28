@@ -19,3 +19,23 @@ body {
 .container { max-width:  margin:  auto; }
 .text-center { text align: center;}
   
+.header { display: ; justify-content: ; }
+.footer { padding:  ;}
+
+  .btn {
+    padding: ;
+    background-color: ;
+    border-radius: ;
+    }
+
+  .card {
+    background-color: # ;
+    box-shadow: px px rgba(,,,);
+  }
+
+  btn over {
+
+    }
+  btn disabled {
+
+  {
