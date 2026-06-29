@@ -5,12 +5,12 @@ justify-content:
 gap:
 padding:
 
-font-family
-font-size
-font-weight
-line-height
-text-align
-text-decoration
+font-family:
+font-size:
+font-weight:
+line-height:
+text-align:
+text-decoration:
 
 border
 border-radius
