@@ -1,9 +1,9 @@
 .btn {
-display:
-align-items:
-justify-content:
-gap:
-padding:
+display: inline-flex; // Modern display 
+align-items: center;
+justify-content: center;
+gap: 4px;
+padding: 8px;
 
 font-family:
 font-size:
