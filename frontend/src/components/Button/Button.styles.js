@@ -6,7 +6,7 @@ gap: 4px;
 padding: 50px;
 
 font-family: system-ui,-apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; // Premium fonts by default
-font-size:
+font-size: clamp(0.976rem, 1.1vi + 0.7rem, 1.222rem);
 font-weight:
 line-height:
 text-align:
