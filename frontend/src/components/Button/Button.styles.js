@@ -5,7 +5,7 @@ justify-content: center;
 gap: 4px;
 padding: 50px;
 
-font-family:
+font-family: system-ui,-apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; // Premium fonts by default
 font-size:
 font-weight:
 line-height:
