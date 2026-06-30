@@ -31,7 +31,7 @@ text-decoration: none ;
 
 
 .btn-primary {
- background-color: # ;
+ background-color: #2563eb;
  color: # ;
  }
 
