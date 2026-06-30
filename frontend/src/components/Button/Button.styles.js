@@ -62,11 +62,11 @@ background-color: #2e7d32;
 }
 
  .btn-outline {
- border-color: # ;
- color: # ;
+ border-color: #d3eba9;
+ color: #413751;
  }
 .btn-outline:hover {
-  background-color: # ;
+  background-color: #2a8c74;
 }
 
 .btn-disabled, 
@@ -74,7 +74,7 @@ background-color: #2e7d32;
 {
  opacity: 0.8 ;
  cursor: none ; // The cursor(arrow) won't display
- pointer-events: ;
+ pointer-events: auto;
   box-shadow: none;
 }
 
