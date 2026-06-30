@@ -32,11 +32,11 @@ text-decoration: none ;
 
 .btn-primary {
  background-color: #2563eb;
- color: # ;
+ color: #f6f3e8;
  }
 
   .btn-primary:hover {
-  background-color: # ;
+  background-color: #90A4B5;
 }
   
 .btn-primary:active {
