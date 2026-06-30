@@ -17,11 +17,11 @@ border-radius: 3.2px;
 background-color: black;
 cursor: none;
 
-transition: all 0.3s   ;
+transition: all 0.3s ease-in-out;
 }
 
 .btn:hover {
-text-decoration: ;
+text-decoration: none ;
 }
 
 .btn:focus-visible {
