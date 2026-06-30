@@ -12,10 +12,10 @@ line-height: 1.6;
 text-align: center;
 text-decoration: none;
 
-border
-border-radius
-background-color
-cursor
+border: ;
+border-radius:.  ;
+background-color: black;
+cursor:.  ;
 
 transition:   ;
 }
@@ -72,9 +72,9 @@ background-color: # ;
 .btn-disabled, 
 .btn:disabled
 {
- opacity: # ;
- cursor: # ;
+ opacity: 0.8 ;
+ cursor: none ; // The cursor(arrow) won't display
  pointer-events: ;
-  box-shadow:  ;
+  box-shadow: none;
 }
 
