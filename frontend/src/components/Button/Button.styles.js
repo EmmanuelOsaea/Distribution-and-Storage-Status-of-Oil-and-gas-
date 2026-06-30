@@ -12,12 +12,12 @@ line-height: 1.6; // Most appropriate line height
 text-align: center;
 text-decoration: none;
 
-border: ;
-border-radius:.  ;
+border: none; // No visible border
+border-radius: 3.2px;
 background-color: black;
 cursor: none;
 
-transition:   ;
+transition: all 0.3s   ;
 }
 
 .btn:hover {
