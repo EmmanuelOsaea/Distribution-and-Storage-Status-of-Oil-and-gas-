@@ -54,11 +54,11 @@ background-color: #2e7d32;
 }
 
   .btn-danger {
- background-color: # ;
- color: # ;
+ background-color: #dc9926;
+ color: #f6f3e8;
  }
 .btn-danger:hover {
-  background-color: # ;
+  background-color: #dc2660;
 }
 
  .btn-outline {
