@@ -45,12 +45,12 @@ background-color: #2e7d32;
 
 
   .btn-secondary {
- background-color: # ;
- color: # ;
+ background-color: #341539;
+ color: #f6f3e8;
  }
   
  .btn-secondary:hover {
-  background-color: # ;
+  background-color: #374151;
 }
 
   .btn-danger {
