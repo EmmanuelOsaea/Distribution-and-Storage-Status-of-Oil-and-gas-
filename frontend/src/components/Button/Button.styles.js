@@ -25,8 +25,8 @@ text-decoration: none ;
 }
 
 .btn:focus-visible {
- outline:  ;
- outline-offset: ;
+ outline: 2.2px solid  #006400;
+ outline-offset: 2.2px;
 }
 
 
