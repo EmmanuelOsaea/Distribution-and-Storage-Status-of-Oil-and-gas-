@@ -1,11 +1,11 @@
 :root {
-  --primary-color: #   ;
+  --primary-color: #ffffff;
   --font-stack: ' ',  ;
 }
 
 
 *, ::before, *::after {
-  box-sizing: border-box:
+  box-sizing: border-box;
   margin: ;
   padding: ;
 }
