@@ -1,6 +1,7 @@
 :root {
   --primary-color: #ffffff;
-  --font-stack: 'Inter',  ;
+  --font-stack: 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', Menlo, Monaco, Consolas, Courier-New, monospace;
 }
 
 
