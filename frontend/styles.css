@@ -39,7 +39,8 @@ body {
     }
 
   .btn--disabled {
-     opacity: ; cursor: ;
+     opacity: ; 
+    cursor: none; // No visible cursor(arrow)
   {
 
   @media (max-width: ) {
