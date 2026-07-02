@@ -1,6 +1,6 @@
 :root {
   --primary-color: #ffffff;
-  --font-stack: ' ',  ;
+  --font-stack: 'Inter',  ;
 }
 
 
@@ -12,7 +12,7 @@
 
 body {
   font-family: var(--font-stack)
-  line-height: ;
+  line-height: 1.5;
 }
 
   h1 { color: # ; }
