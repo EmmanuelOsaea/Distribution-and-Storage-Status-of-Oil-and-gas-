@@ -7,8 +7,8 @@
 
 *, ::before, *::after {
   box-sizing: border-box;
-  margin: ;
-  padding: ;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 .container { max-width: 1142px; margin:  auto; }
 .text-center { text-align: center;}
   
-.header { display: ; justify-content: center; }
+.header { display: block grid; justify-content: center; }
 .footer { padding: 40px;}
 
   .btn {
