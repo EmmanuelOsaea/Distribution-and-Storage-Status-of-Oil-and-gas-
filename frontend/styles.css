@@ -20,8 +20,8 @@ body {
 .container { max-width:  margin:  auto; }
 .text-center { text align: center;}
   
-.header { display: ; justify-content: ; }
-.footer { padding:  ;}
+.header { display: ; justify-content: center; }
+.footer { padding: 40px;}
 
   .btn {
     padding: ;
@@ -35,7 +35,7 @@ body {
   }
 
   .btn:hover {
-   background-color: ;
+   background-color: #90A4B5;
     }
 
   .btn--disabled {
