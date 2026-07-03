@@ -41,8 +41,7 @@ body {
   .btn--disabled {
      opacity: 0; 
     cursor: none; // No visible cursor(arrow)
-  {
-
+  }
   @media (max-width: 480px; ) {
   .header {flex-direction: column;}
   }
