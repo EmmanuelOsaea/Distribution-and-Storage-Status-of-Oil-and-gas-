@@ -17,7 +17,7 @@ body {
 }
 
   h1 { color: #353e43; }
-.container { max-width: #4d8c57; margin:  auto; }
+.container { max-width: 1142px; margin:  auto; }
 .text-center { text align: center;}
   
 .header { display: ; justify-content: center; }
@@ -30,12 +30,12 @@ body {
     }
 
   .card {
-    background-color: # ;
+    background-color: #4d8c57;
     box-shadow: px px rgba(,,,);
   }
 
   .btn:hover {
-   background-color: #90A4B5;
+   background-color: #90a4b5;
     }
 
   .btn--disabled {
