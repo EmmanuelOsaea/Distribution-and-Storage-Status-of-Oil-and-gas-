@@ -17,10 +17,23 @@ true);
 
 <main class="dashboard-grid">
  <?php foreach($tanks as $tank): ?>
-<div class= "status-card" <?php
+<div class= "status-card" <?php echo strtolower($tank['status']); ?>">
+ <h1><?php echo htmlspecialchars($tank['tank name']
+                                 
+ 
+
+                                 
+                                 
+  
+  </div>
+ <php endforeach; ?>
+ </main>
+ </body>
+ </html>
 
   
 
 
 
 
+     
