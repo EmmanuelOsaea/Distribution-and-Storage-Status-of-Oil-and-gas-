@@ -19,14 +19,11 @@ true);
  <?php foreach($tanks as $tank): ?>
 <div class= "status-card" <?php echo strtolower($tank['status']); ?>">
  <h1><?php echo htmlspecialchars($tank['tank name']
-                                 
- 
-
-                                 
-                                 
   
+<p>Capacity: <?php echo $tank['currentCapacity']; ?>
+ <span class ="badge"> <?php echo = htmlspecialchars($tank['status']); ?></span>   
   </div>
- <php endforeach; ?>
+ <? php endforeach; ?>
  </main>
  </body>
  </html>
