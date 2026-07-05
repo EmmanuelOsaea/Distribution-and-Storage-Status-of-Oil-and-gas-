@@ -18,9 +18,8 @@ true);
 <main class="dashboard-grid">
  <?php foreach($tanks as $tank): ?>
 <div class= "status-card" <?php echo strtolower($tank['status']); ?>">
- <h1><?php echo htmlspecialchars($tank['tank name']
-  
-<p>Capacity: <?php echo $tank['currentCapacity']; ?>
+ <h1><?php echo htmlspecialchars($tank['tankName']
+ <p>Capacity: <?php echo $tank['currentCapacity']; ?> <?php echo $tank = ['maxCapacity']; ?> Liters</p>
  <span class ="badge"> <?php echo = htmlspecialchars($tank['status']); ?></span>   
   </div>
  <? php endforeach; ?>
