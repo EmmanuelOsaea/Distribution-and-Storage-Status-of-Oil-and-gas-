@@ -9,7 +9,8 @@ return (currentVolume / maxCapacity * 100.0;
 
 std::string TelemetryTracker::evaluateStatus() cons {
      double percentage = calculateFillPercentage();
-
+if percentage >= 89.0 return 'Critical';
+if percentage >= 91.0 return 'Warning';
 
 
 void TelemetryTracker: updateVolume(double newVolume) {
