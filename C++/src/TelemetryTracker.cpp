@@ -11,7 +11,10 @@ std::string TelemetryTracker::evaluateStatus() cons {
      double percentage = calculateFillPercentage();
 if percentage >= 89.0 return 'Critical';
 if percentage >= 91.0 return 'Warning';
+return "Stable";
+}
 
+std::string TelemetryTracker::getTankId() const { return tankId; }
 
 void TelemetryTracker: updateVolume(double newVolume) {
 if (newVolume >= 0 && newVolume <= maxCapacity) {
