@@ -4,19 +4,28 @@ dbo.usp_User_Upsert
 @Email NVARCHAR(258)
 @isActive BIT = 1
 AS
-*
+/
+*******************************************************************************
 
 
-Author: 
+Author: Your Name
 Create Date: 2026-07-06
-Description: Inserts or update s user record
+Description: Inserts or update a user record.
+Prefix 'usp_' denotes a User Stored Procedure.
+‎*******************************************************************************/
+  
+BEGIN
 
+SET NOCOUNT ON;
+SET XACT ABORT ON;
 
   
+  BEGIN TRY
+  BEGIN TRANSACTION
   
- 
+ IF @UserId IS NULL
  BEGIN  
-  INSERT INTO dbo.Users
+  INSERT INTO dbo.Users(Email, isActive, CreatedDate)
      VALUES(@Email, @IsActive,
 GETUTCDATE()
 END
