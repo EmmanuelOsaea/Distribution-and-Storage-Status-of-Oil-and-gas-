@@ -1,6 +1,6 @@
 using System.Data;
-using Microsoft.Data.SqlClient
-using Dapper
+using Microsoft.Data.SqlClient;
+using Dapper;
 
 namespace MyApp.Services;
 
@@ -10,20 +10,17 @@ IUserService
   private readonly string
  _connectionString;
    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+_connection string
+public UserService(IConfiguration
+configuration)
+  {
+    _connection string = 
+configuration GetConnectionString("
+DefaultConnection")
+     ?? throw new
+ArgumentNullException(nameof(con
+figuration));
+  }
    
    public async Task<bool>
    UpsertUserAsync(UserDto  userDto)
