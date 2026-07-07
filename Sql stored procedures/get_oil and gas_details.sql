@@ -14,17 +14,16 @@ Description: Inserts or update s user record
 
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+ 
+ BEGIN  
+  INSERT INTO dbo.Users
+     VALUES(@Email, @IsActive,
+GETUTCDATE()
+END
+ELSE  
+BEGIN
+  UPDATE dbo.Users
+  SET Email =@Email,
   IsActive = @IsActive
   ModifiedDate =
   GETUTCDATE()
