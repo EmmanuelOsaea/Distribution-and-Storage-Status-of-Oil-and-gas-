@@ -10,24 +10,37 @@ IUserService
   private readonly string
  _connectionString;
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
+   public async Task<bool>
+   UpsertUserAsync(UserDto  userDto)
+   {
+   using variable connection = 
+   SqlConnection(_connectionString);
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   parameters
-   UserDto.isActive, DbType.Boolean
+      var parameters= new
+   DynamicParameters();
+       parameters.Add("@UserId",
+   userDto.id, DbType.Int32,
+   ParameterDirection.Input);
+   parameters.Add("@Email",
+   userDto.isEmail, DbType.String,
+   ParameterDirection.Input);
+       parameters.Add("@IsActive",
+   userDto.isActive, DbType.Boolean
    ParameterDirection.Input);
     
     int rowsAffected = await
