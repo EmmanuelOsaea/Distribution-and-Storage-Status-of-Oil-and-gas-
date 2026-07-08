@@ -9,7 +9,7 @@
 
 
 
-
+ail)) return false;
 regex
 var emailRegex = new
 Regex(@"^[^@\s]+@[^@\s]+\
