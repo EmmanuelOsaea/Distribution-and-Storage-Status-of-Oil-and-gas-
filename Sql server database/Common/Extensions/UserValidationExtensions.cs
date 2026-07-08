@@ -10,10 +10,10 @@
 
 
 
-
-
-
-
+regex
+var emailRegex = new
+Regex(@"^[^@\s]+@[^@\s]+\
+.[^@\s]+$", RegexOptions.Compiled
 | RegexOptions.IgnoreCase);
    return 
 emailRegex.Ismatch(user.Email)
