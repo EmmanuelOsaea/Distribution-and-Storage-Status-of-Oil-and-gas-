@@ -1,11 +1,13 @@
+using Microsoft.AspNetCore.Mvc;
+using MyApp.Services;
+using
+MyApp.Common.Extensions;
 
 
+namespace MyApp.Controllers;
 
-
-
-
-
-
+[ApiController]
+[Route("api/[controller]")]
 public class UserController:
 ControllerBase
 {
