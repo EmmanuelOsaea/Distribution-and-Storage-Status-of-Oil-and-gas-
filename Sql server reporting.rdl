@@ -6,18 +6,18 @@ xmlns="http://microsoft.com">
 <Width>6.8in</Width>
 <Body>
 <Height>2.2in</Height>
-</Style>
-<Body>
-<Page>
+<Style />
+</Body>
+</Page>
 <LeftMargin>1.2in</LeftMargin>
 <RightMargin>1.2in</RightMargin>
 <TopMargin>1.2in</TopMargin>
 <BottomMargin>1.2in</BottomMargin>
-style
-page
-rd reportUnitType inch
-rd reportUnitType
+<Style />
+</Page>
+<rd:ReportUnitType>Inch</
+rd:ReportUnitType>
 
-rd reportUnitType
-report ID>
+<rd:ReportID>0000000-0000-0000-000000-00000000000
+</rd:ReportID>
 </Report>
