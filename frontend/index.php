@@ -27,7 +27,7 @@ htmlspecialchars($tank['tankName']
         <p>Capacity: <?php echo
 $tank['currentCapacity'];?> / <?php
 echo $tank['maxCapacity'];?>
-Liters</p>
+Litres</p>
        <span class ="badge"><?
 php echo
 htmlspecialchars($tank['status']);?
