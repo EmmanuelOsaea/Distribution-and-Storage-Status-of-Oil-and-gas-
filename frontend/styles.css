@@ -21,7 +21,7 @@ body {
 .text-center { text-align: center;}
   
 .header { display: block grid; justify-content: center; }
-.footer { padding: 40px;}
+
 
   .btn {
     padding: 13px 17px;
@@ -42,23 +42,19 @@ body {
      opacity: 0; 
     cursor: none; // No visible cursor(arrow)
   }
+
   @media (max-width: 480px; ) {
   .header {flex-direction: column;}
   }
 
 div, strong {
-
-
-
-
-
-
-  }
+color: #000000;
+ }
   
 
 
 main-nav, ul, li {
-
+color: #;
 
 }
   
@@ -80,5 +76,6 @@ section, h1, p {
 
   
 footer, p {
-
+padding: 40px;
+  
     }
