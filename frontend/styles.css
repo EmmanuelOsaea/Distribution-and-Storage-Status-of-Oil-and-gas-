@@ -14,7 +14,9 @@
 body {
   font-family: var(--font-sans-serif)
   line-height: 1.5;
-}
+  color: #000000;
+  
+  }
 
   h1 { color: #353e43; }
 .container { max-width: 1142px; margin:  auto; }
