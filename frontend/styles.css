@@ -58,34 +58,34 @@ body {
   }
 
 div, strong {
-      ;
+ font-family: var (--font-);
  }
   
 
 
 main-nav, ul, li {
-      ;
+ font-family: var (--font-);
 
 }
   
 div, span {
-
+font-family: var (--font-)
 
   }
 
 section, h1, p {
-
+font-family: var (--font-)
 
 }
   
 
   article, h2 {
-
+font-family: var (--font-)
 
   }
 
   
 footer, p {
 padding: 40px;
-  
+font-family: var (--font-)
     }
