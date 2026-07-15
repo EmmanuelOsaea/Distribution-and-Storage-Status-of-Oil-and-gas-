@@ -1,3 +1,9 @@
+@
+
+
+
+
+
 :root {
   --primary-color: #ffffff;
   --font-stack: 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -58,23 +64,23 @@ body {
   }
 
 div, strong {
- font-family: var (--font-);
+ font-family: var (--font-dancing script);
  }
   
 
 
 main-nav, ul, li {
- font-family: var (--font-);
+ font-family: var (--font-great vibes);
 
 }
   
 div, span {
-font-family: var (--font-)
+font-family: var (--font-pacifico)
 
   }
 
 section, h1, p {
-font-family: var (--font-)
+font-family: var (--font-sacramento)
 
 }
   
@@ -87,5 +93,5 @@ font-family: var (--font-)
   
 footer, p {
 padding: 40px;
-font-family: var (--font-)
+font-family: var (--font-cedarville cursive)
     }
