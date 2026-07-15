@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: var(--font-sans-serif);
+  font-family: var(--font-stack);
   line-height: 1.5;
   color: #000000;
   font-size: 12px;
@@ -60,42 +60,31 @@ body {
 
   .btn--disabled {
      opacity: 0; 
-    cursor: none; // No visible cursor(arrow)
+    cursor: none; /* No visible cursor(arrow)*/
   }
 
   @media (max-width: 480px ) {
   .header {flex-direction: column;}
   }
 
-div, strong {
- font-family: var (--font-dancing script);
+
+font-dancing {
+ font-family: 'Dancing Script', cursive;
  }
   
 
 
-main-nav, ul, li {
- font-family: var (--font-great vibes);
-
+font-vibes {
+ font-family: 'Great vibes', cursive;
 }
   
-div, span {
-font-family: var (--font-pacifico);
-
+font-pacifico {
+font-family: 'Pacifico', cursive);
   }
 
-section, h1, p {
-font-family: var (--font-sacramento);
-
+font-cedarville {
+font-family:
 }
   
 
-  article, h2 {
-font-family: var (--font-pacifico)
-
-  }
-
   
-footer, p {
-padding: 40px;
-font-family: var (--font-cedarville, cursive);
-    }
