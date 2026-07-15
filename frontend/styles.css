@@ -79,12 +79,12 @@ main-nav, ul, li {
 }
   
 div, span {
-font-family: var (--font-pacifico)
+font-family: var (--font-pacifico);
 
   }
 
 section, h1, p {
-font-family: var (--font-sacramento)
+font-family: var (--font-sacramento);
 
 }
   
