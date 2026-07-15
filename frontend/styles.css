@@ -15,7 +15,7 @@ body {
   font-family: var(--font-sans-serif)
   line-height: 1.5;
   color: #000000;
-  
+  font-size: 12px;
   }
 
   h1 { color: #353e43; }
