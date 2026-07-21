@@ -12,7 +12,9 @@ private:
 public:
      TelemetryTracker(std:: string id, double current, double max);
 double calculateFillPercentage() const;
-std:: string evaluateStatus const;
+std::string evaluateStatus()
+const;
+
 
 std:: string getTankId() const;
 void updateVolume(double newVolume);
