@@ -1,3 +1,5 @@
+using MyApp.Models;
+
 namespace MyApp.Services;
 
 public interface IUserService
