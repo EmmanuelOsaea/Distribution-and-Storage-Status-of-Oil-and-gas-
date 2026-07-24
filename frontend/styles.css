@@ -31,7 +31,7 @@ body {
 }
   
 .header {
-  display: block grid; 
+  display: grid; 
   justify-content: center; 
 }
 
@@ -60,7 +60,7 @@ body {
 
   .btn--disabled {
      opacity: 0; 
-    cursor: none; /* No visible cursor(arrow)*/
+    cursor: not-allowed; /* No visible cursor(arrow)*/
   }
 
   @media (max-width: 480px ) {
@@ -68,21 +68,3 @@ body {
   }
 
 
-font-dancing {
- font-family: 'Dancing Script', cursive;
- }
-  
-font-vibes {
- font-family: 'Great vibes', cursive;
-}
-  
-font-pacifico {
-font-family: 'Pacifico', cursive;
-  }
-
-font-cedarville {
-font-family: 'Cedarville Cursive', cursive;
-}
-  
-
-  
