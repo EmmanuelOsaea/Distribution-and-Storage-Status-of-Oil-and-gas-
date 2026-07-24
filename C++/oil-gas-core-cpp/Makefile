@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -std=c++7 -1 -Iinclude
+CXXFLAGS = -std=c++17 -Wall -Wextra -Iinclude
 
 
 TARGET = telemetry_app
