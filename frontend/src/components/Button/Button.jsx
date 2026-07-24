@@ -1,18 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Button.css';
+import './Button.styles.js';
 
 const Button = ({
   children,
   onClick,
-  type = 'button'
+  type = 'button',
   variant = 'primary',
   disabled = false,
    ...rest
  }) => {
-
-  const buttonClass = `btn btn-$ {variant}${disabled ?'btn-disabled': "} 
- `;
+ const buttonClass = `btn btn-${variant} ${disabled ? 'btn-disabled' : ''}`.trim();
+   `;
+ 
  return (
  <button 
  type={type}
@@ -21,8 +21,7 @@ const Button = ({
  disabled={disabled}
   {...rest}
   >
-{children} {
-  }
+{children} 
 </button>
   );
   };
@@ -33,7 +32,7 @@ const Button = ({
     onClick: PropTypes.func,
     type: PropTypes.oneOf{['button','submit', 'reset']),
     variant:
-    PropTypes.oneOf(['primary', 'safety', 'warning', 'emergency']),
+    PropTypes.oneOf(['primary', 'secondary', 'danger', 'outline']),
     disabled: PropTypes.bool,
     };
     
