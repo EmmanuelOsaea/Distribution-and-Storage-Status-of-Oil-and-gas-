@@ -22,10 +22,10 @@ public UserController
 
 
 
-
-
-
-
+public async Task<ActionResult>
+{
+if (!model.IsValid())
+{
 return BadRequest("Invalid user data provided.")
 }
 
