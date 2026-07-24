@@ -1,6 +1,7 @@
 using System.Data;
-using Microsoft.Data.SqlClient;
 using Dapper;
+using Microsoft.Data.SqlClient;
+using MyApp.Models;
 
 namespace MyApp.Services;
 
@@ -15,7 +16,7 @@ public UserService(IConfiguration
 configuration)
   {
     _connection string = 
-configuration GetConnectionString("
+configuration.GetConnectionString("
 DefaultConnection")
      ?? throw new
 ArgumentNullException(nameof(con
@@ -25,13 +26,13 @@ figuration));
    public async Task<bool>
    UpsertUserAsync(UserDto  userDto)
    {
-   using variable connection = 
+   using var connection = new
    SqlConnection(_connectionString);
    
       var parameters= new
    DynamicParameters();
        parameters.Add("@UserId",
-   userDto.id, DbType.Int32,
+   userDto.Userid, DbType.Int32,
    ParameterDirection.Input);
    parameters.Add("@Email",
    userDto.isEmail, DbType.String,
