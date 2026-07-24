@@ -12,3 +12,26 @@ public class UserController: ControllerBase
 private readonly IUserService _userService;
 
 public UserController
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+return BadRequest("Invalid user data provided.")
+}
+
+var result = await _userService.UpsertUserAsync(model);
+
+return result
+? Ok(new { message = "Done" }
+: StatusCode(500, "Error updating database");
+}
