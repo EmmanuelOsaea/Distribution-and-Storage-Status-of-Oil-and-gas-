@@ -11,18 +11,13 @@ public class UserController: ControllerBase
 {
 private readonly IUserService _userService;
 
-public UserController
+public UserController(IUserService userService)
+{
+    _userService = userService;
+}
 
-
-
-
-
-
-
-
-
-
-public async Task<ActionResult>
+[HttpPost("upsert")]
+public async Task<ActionResult> UpsertUser([FromBody]) UserDto model)
 {
 if (!model.IsValid())
 {
