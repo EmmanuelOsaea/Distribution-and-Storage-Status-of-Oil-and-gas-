@@ -13,3 +13,9 @@ public static class UserValidationExtensions
 
     return emailRegex.IsMatch(user.Email);
   }
+
+  public static bool IsEligibleForAdmin(this UserDto user)
+  {
+    return user.IsValid() && user.IsActive;
+  }
+}
