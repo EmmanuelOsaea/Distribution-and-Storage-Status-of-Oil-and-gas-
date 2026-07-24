@@ -1,16 +1,18 @@
 <?php
-apiUrl =
+$apiUrl =
 "http://localhost:5000/api/storage";
 $jsonData= 
 file_get_contents($apiUrl);
 $tanks= json_decode($jsonData,
 true);
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel= "stylesheet" href="css/
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Oil & Gas Status Dashboard</title>
+ <link rel= "stylesheet" href="css/
 style.css">
 </head>
 <body>
